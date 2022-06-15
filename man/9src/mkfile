@@ -1,0 +1,7 @@
+</$objtype/mkfile
+
+all:V: install
+
+install:V: 
+	cp VolPack-* /sys/man/2/
+	cat INDEX.patch >> /sys/man/2/INDEX
